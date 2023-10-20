@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  background: rgb(219, 219, 35);
+  max-width: 400px;
+  min-height: 300px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card-img img {
+  border-radius: 1rem;
+}
+.card p {
+  margin-top: 0.5rem;
+}

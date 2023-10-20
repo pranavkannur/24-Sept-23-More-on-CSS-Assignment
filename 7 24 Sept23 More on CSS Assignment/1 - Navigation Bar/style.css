@@ -1,0 +1,30 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  background: rgb(103, 103, 224);
+  min-height: 62px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 5rem;
+    color: white;
+    font-weight: 600;
+}
+nav ul li a:hover {
+  
+    color: rgb(30, 255, 0);
+}
